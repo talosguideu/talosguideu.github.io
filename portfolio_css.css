@@ -7,8 +7,8 @@ body{
     opacity:1;
     transition: 2s opacity;
     letter-spacing:.2vw;
-    font-size:1.5vw;
-    font-family: Avant Garde, Helvetica;
+    font-size:30px;
+    font-family: Helvetica;
 }
 body.fade-out{
     opacity:.1;
@@ -16,7 +16,7 @@ body.fade-out{
 }
 .navbar{
     overflow:hidden;
-    background-color: rgb(115, 112, 117);
+    background-color:rgb(150, 168, 194);
     position:fixed;
     top:0;
     width:100%;
@@ -25,16 +25,16 @@ body.fade-out{
 .navbar a{
     float: left;
     display: block;
-    color:rgb(241, 203, 235);
+    color:rgb(10, 14, 24);
     padding: 14px 16px;
     text-decoration: none;
-    font-family: Avant Garde, Helvetica;
-    font-size: 25px;
+    font-family: Helvetica;
+    font-size: 28px;
     text-align: center;
 }
 .navbar a:hover{
     background-color:#50515a;
-    color: rgb(247, 183, 227);
+    color: rgb(180, 180, 180);
     font-weight: bold;
 }
 @keyframes zoominoutsinglefeatured{
@@ -103,7 +103,7 @@ body.fade-out{
     border-radius:3px 0 0 3px;
 }
 .Previous:hover, .Next:hover{
-    background-color:rgba(0,0,0,0.8);
+    background-color:rgba(73, 73, 73, 0.8);
     color:white;
 }
 .text{
@@ -113,9 +113,9 @@ body.fade-out{
     bottom:0;
     width:100%;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica;
     letter-spacing:.1vw;
-    font-size:1.5vw;
+    font-size:25px;
     background-color: rgba(0,0,0,.75);
     font-weight: bold;
     border-radius: 7px 7px 7px 7px;
@@ -124,7 +124,7 @@ body.fade-out{
     color:white;
     position: absolute;
     top:0;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:Helvetica;
     letter-spacing:.1vw;
     font-weight: bold;
     display:none;
@@ -184,29 +184,30 @@ body.fade-out{
 }
 h1{
     text-transform:uppercase;
-    font-family:"Trebuchet MS", Optima;
+    font-size:50px;
+    font-family:Verdana;
     text-align: center;
     margin-top:3%;
     color:#1a1a1a;
 }
 p{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Verdana;
     text-align:justify;
     letter-spacing:1px;
-    font-size:20px;
+    font-size:25px;
     padding-left:20px;
     padding-right:20px;
 }
 center{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica;
     text-align: center;
     letter-spacing: 1px;
-    font-size: 20px;
+    font-size: 30px;
     padding-left:20px;
     padding-right:20px;
 }
 a{
-    color:rgb(240,144,224);
+    color:rgb(72, 76, 92);
 }
 q{
     font-style: italic;
@@ -224,16 +225,16 @@ img{
 input[type=text]{
     width:100%;
     padding:12px;
-    border:2px solid rgb(240,144,224);
+    border:2px solid rgb(118, 115, 161);
     border-radius:4px;
     box-sizing: border-box;
     margin-top:6px;
     margin-bottom:16px;
     resize:vertical;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:Verdana;
 }
 input[type="submit"]{
-    background-color:rgb(247, 183, 227);
+    background-color:rgb(123, 124, 134);
     color: black;
     font-weight:bold;
     padding: 12px 20px;
@@ -255,7 +256,7 @@ form{
     border-radius:10px;
     background-color: rgb(156, 153, 158);
     padding:20px;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:Verdana;
 }
 center:hover{
     transition: transform 2s;
@@ -309,7 +310,7 @@ img:hover{
     margin:.6vw 0 .6vw 0;
     border:none;
     background: gainsboro;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica;
     font-size:1vw;
 }
 .form-container .btn{
@@ -324,7 +325,7 @@ img:hover{
     border-color: gray;
 }
 button{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica;
     letter-spacing:.3vw;
     font-size:1.5vw;
     font-weight:bold;
@@ -344,7 +345,7 @@ button:hover, .form-container .btn:hover{
 }
 .cancel:hover{
     color:white;
-    background-color: indianred;
+    background-color: grey;
     -webkit-transition-duration: 1s;
     transition-duration:1s;
     border-style:solid;
@@ -352,5 +353,5 @@ button:hover, .form-container .btn:hover{
 }
 footer{
     padding:2%;
-    background-color: rgb(241, 203, 235);
+    background-color: rgb(150, 168, 194);
 }
